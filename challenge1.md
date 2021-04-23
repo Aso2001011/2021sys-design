@@ -4,9 +4,9 @@ start
 :weather=代入;
 if(weather)then(0)
 :快晴です;
-else if (1)
+else if(weathter)then(1)
 :曇りです;
-else if (2)
+else if(weather)then(2)
 :雨です;
 else
 :不明です;

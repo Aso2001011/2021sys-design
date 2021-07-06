@@ -1,6 +1,6 @@
 ```startuml
 @startuml
-entity”顧客マスタ” as customer<m_customer>
+entity"顧客マスタ" as customer<m_customer>
 <<M,MASTER_MARK_COLOR>>{
 +customer_code[PK]
 --

@@ -37,6 +37,9 @@ entity "購入テーブル" as purchase <d_purchase> <<T,TRANSACTION_MARK_COLOR>
         total_price
 }
 
+
+customer ||olo| purchase
+
 }
 @enduml
 ```

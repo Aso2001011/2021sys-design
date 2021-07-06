@@ -13,7 +13,11 @@ skinparam class {
     'リレーションの色
     ArrowColor Black
 }
-entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
+
+
+package "ECサイト" as target_system {
+    
+    entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
         + customer_code [PK]
         --
         pass
@@ -32,9 +36,6 @@ entity "購入テーブル" as purchase <d_purchase> <<T,TRANSACTION_MARK_COLOR>
         purchase_date
         total_price
 }
-
-package "ECサイト" as target_system {
-    
 
 }
 @enduml

@@ -26,7 +26,7 @@ package "ECサイト" as target_system {
         mail
         del_flag
         reg_date
-    } ----{
+    } 
     entity "購入テーブル" as customer <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
         +order_id [PK]
         --

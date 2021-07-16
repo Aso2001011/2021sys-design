@@ -3,10 +3,6 @@
 [ER図はこちら]( https://github.com/Aso2001011/2021sys-design/blob/main/ER.md "ER図はこちら")
 
 # DBテーブルカラム詳細一覧
-
-# データベース詳細
-# データベース詳細
-
 ### d_purchase
 
 |属性名|型|PK|NN|FK|
@@ -55,3 +51,7 @@
 |detail|varchar(500)||||
 |del_flag|int(11)||||
 |reg_date|date||〇||
+
+
+# データベース詳細
+

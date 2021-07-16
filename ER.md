@@ -28,6 +28,7 @@ package "ECサイト" as target_system {
         del_flag
         reg_date
 }
+}|..||
 
 entity "購入テーブル" as order <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
         +order_id [PK]
@@ -65,10 +66,6 @@ entity "カテゴリマスタ" as cate <m_category> <<M,MASTER_MARK_COLOR>>{
     reg_date
 }
 
-Entity01 }|..|| Entity02
-Entity03 }o..o| Entity04
-Entity05 ||--o{ Entity06
-Entity07 |o--|| Entity08
 }
 
 @enduml

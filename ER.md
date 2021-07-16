@@ -66,10 +66,10 @@ entity "カテゴリマスタ" as cate <m_category> <<M,MASTER_MARK_COLOR>>{
 }
 
 }
-customer }|.-r-.|| order
-order }o.-r-.o| order_detail
-order_detail ||--d--o{ items
-items |o--l--|| cate
+customer }|.r.|| order
+order }o.r.o| order_detail
+order_detail ||-d-o{ items
+items |o-l-|| cate
 
 @enduml
 ```

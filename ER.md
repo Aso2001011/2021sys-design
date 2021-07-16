@@ -65,12 +65,12 @@ entity "カテゴリマスタ" as cate <m_category> <<M,MASTER_MARK_COLOR>>{
     reg_date
 }
 
-
-}
 Entity01 }|..|| Entity02
 Entity03 }o..o| Entity04
 Entity05 ||--o{ Entity06
 Entity07 |o--|| Entity08
+}
+
 @enduml
 ```
 

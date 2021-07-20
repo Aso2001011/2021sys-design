@@ -19,7 +19,7 @@ DBサーバー -> DBサーバー:ログイン処理
 DBサーバー -> webサーバー:認証結果
 webサーバー -> ユーザー:認証結果
 
-active ユーザー
+activate ユーザー
 
 opt 認証成功
 webサーバー -> ユーザー:ユーザー名を表示
@@ -39,7 +39,7 @@ webサーバー -> ユーザー:ログアウト結果
 
 end
 
-deactive ユーザー
+deactivate ユーザー
 
 
 @enduml

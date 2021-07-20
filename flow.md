@@ -1,3 +1,4 @@
+```uml
 @startuml
 
 opt 未登録
@@ -43,4 +44,4 @@ deactivate ユーザー
 
 
 @enduml
-
+```

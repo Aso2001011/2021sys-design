@@ -53,6 +53,5 @@ alt 購入成功
   end
 
 
-
 @enduml
 ```
